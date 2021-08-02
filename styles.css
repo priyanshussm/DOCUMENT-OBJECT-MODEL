@@ -1,0 +1,145 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: rgb(78, 243, 78);
+}
+
+.heading {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+}
+
+.heading span {
+  font-size: 2.4rem;
+  /* color: white; */
+}
+
+.home-container{
+  display: flex;
+  border: 2px solid purple;
+ 
+}
+.form-container {
+  
+  height: 340px;
+  width: 400px;
+  margin-left: 150px;
+  margin-top: 90px;
+  background-color: #FFFFFF;
+  border-radius: 7px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.table-container {
+  border: 1px solid red;
+  height: 800px;
+  width: 640px;
+  /* margin: 0 40px; */
+  margin-left: 240px;
+  margin-top: 20px;
+  background-color: #FFFFFF;
+}
+
+.form-heading{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.form-heading span{
+  font-size: 1.9rem;
+  /* color: white; */
+  font-family: 'Bree Serif', serif;
+}
+.input-box{
+ 
+  height: 260px;
+  padding-top: 40px;
+ 
+}
+
+.submit-box{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-submit{
+  color: #FFFFFF;
+  width: 300px;
+  height: 35px;
+  border-radius: 23px;
+  border: 2px solid black;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+    background-color: #42b72a;
+  cursor: pointer;
+}
+.labelmovie{
+  padding: 10px 0 8px 30px;
+  font-size: 20px;
+}
+.inputmovie{
+  /* padding-left: 20px; */
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+
+.labelrating{
+  padding: 15px 0 8px 30px;
+  font-size: 20px;
+}
+.inputrating{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.form-group input{
+  width: 340px;
+  height: 38px;
+  padding-left: 9px;
+}
+
+.table-heading{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.table-heading span{
+  font-size: 1.9rem;
+  /* color: white; */
+  font-family: 'Bree Serif', serif;
+}
+.gridtable{
+  border: 2px solid red;
+  /* border-radius: 28px; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+ 
+  /* margin: 20px 140px; */
+  grid-template-rows: 40px 40px 40px 40px 40px 40px 40px 40px ;
+  /* background-color: violet; */
+}
+
+
+.gridtable > div {
+  border: 2px solid black;
+
+  text-align: center;
+  /* padding-top: 20px; */
+  font-size: 25px;
+  font-family: arial;
+  /* margin: 5px 10px; */
+  /* border-radius: 15px; */
+}
